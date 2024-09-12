@@ -34,7 +34,7 @@ body {
 
 .container .box {
   transform-style: preserve-3d;
-  animation: animate 7s ease-in-out infinite alternate;
+  animation: animate 3s ease-in-out infinite alternate;
 }
 
 .container .box span {
@@ -42,7 +42,7 @@ body {
   text-transform: uppercase;
   line-height: 0.76em;
   position: absolute;
-  color: #58bb1ed8;
+  color: #f17c38d8;
   font-size: 3.5em;
   white-space: nowrap;
   font-weight: bold;
@@ -70,7 +70,7 @@ body {
   }
 
   100% {
-    transform: perspective(50px) rotateX(360deg) rotate(5deg);
+    transform: perspective(30px) rotateX(720deg) rotate(5deg);
   }
 }
 
